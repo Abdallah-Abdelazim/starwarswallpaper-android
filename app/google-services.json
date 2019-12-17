@@ -8,20 +8,12 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:236580738883:android:596e1871b7f90db8",
+        "mobilesdk_app_id": "1:236580738883:android:9b3f53bf0f7797f7c901f6",
         "android_client_info": {
-          "package_name": "com.tumblr.starwarswallpaper"
+          "package_name": "net.starwarswallpaper.app.android"
         }
       },
       "oauth_client": [
-        {
-          "client_id": "236580738883-islc6r143gbun5hed30u3vn7o5sumgv5.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.tumblr.starwarswallpaper",
-            "certificate_hash": "5b2e8a51f642e3fa1f538e3a4b4c22a77d06056b"
-          }
-        },
         {
           "client_id": "236580738883-6s73r4ke7s3qq2fouvda6a22j6mkl77d.apps.googleusercontent.com",
           "client_type": 3
@@ -33,64 +25,13 @@
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
               "client_id": "236580738883-6s73r4ke7s3qq2fouvda6a22j6mkl77d.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:236580738883:android:40dfb0f5854648b4",
-        "android_client_info": {
-          "package_name": "com.tumblr.starwarswallpaper.pro"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "236580738883-rlch3h1ichjg8l0iljf9436f2c6pl9mi.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.tumblr.starwarswallpaper.pro",
-            "certificate_hash": "5b2e8a51f642e3fa1f538e3a4b4c22a77d06056b"
-          }
-        },
-        {
-          "client_id": "236580738883-6s73r4ke7s3qq2fouvda6a22j6mkl77d.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAe-xY6nfPWl5P_SFZvUGhVOG3wE9XINog"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "236580738883-6s73r4ke7s3qq2fouvda6a22j6mkl77d.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }

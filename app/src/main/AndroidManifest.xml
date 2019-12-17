@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tumblr.starwarswallpaper"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="net.starwarswallpaper.app.android"
     android:installLocation="auto">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -8,15 +9,16 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-        android:name=".App"
+        android:name="net.starwarswallpaper.app.android.App"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name=".activities.WallpapersActivity"
+            android:name="net.starwarswallpaper.app.android.activities.WallpapersActivity"
             android:label="@string/launcher_app_name"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme.NavDrawerNoActionBar">
@@ -27,16 +29,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.WallpaperDetailsActivity"
+            android:name="net.starwarswallpaper.app.android.activities.WallpaperDetailsActivity"
             android:label="@string/title_activity_wallpaper_details"
-            android:parentActivityName=".activities.WallpapersActivity"
+            android:parentActivityName="net.starwarswallpaper.app.android.activities.WallpapersActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.tumblr.starwarswallpaper.activities.WallpapersActivity" />
+                android:value="net.starwarswallpaper.app.android.activities.WallpapersActivity" />
         </activity>
 
-        <receiver android:name=".app_widget.SuggestedWallpaperWidget">
+        <receiver android:name="net.starwarswallpaper.app.android.app_widget.SuggestedWallpaperWidget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>

@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Star Wars Wallpapers</string>
-    <string name="launcher_app_name">SW Wallpapers</string>
+    <string name="app_name">Star Wars Wallpaper</string>
+    <string name="launcher_app_name">SWW</string>
     <string name="title_activity_wallpaper_details">Wallpaper Details</string>
 
     <!-- Content Descriptions -->
@@ -18,7 +18,7 @@
 
     <!-- Views' Text -->
     <string name="author_label">Author: </string>
-    <string name="setting_wallpaper_label">Setting wallpaper...</string>
+    <string name="setting_wallpaper_label">Setting wallpaper…</string>
     <string name="wallpaper_download_notification_title">Downloading Wallpaper \'%s\'</string>
     <string name="wallpaper_download_notification_description">Star Wars Wallpapers - Downloading \'%s\'</string>
     <!---->

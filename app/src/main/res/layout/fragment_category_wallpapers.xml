@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.CategoryWallpapersFragment">
+    tools:context="net.starwarswallpaper.app.android.fragments.CategoryWallpapersFragment">
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_wallpapers"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
