@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.CategoryWallpapersFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_wallpapers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ProgressBar
+        android:id="@+id/pb_loading_wallpapers"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="@dimen/progress_bar_dimen"
+        android:layout_height="@dimen/progress_bar_dimen"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/progress_bar_margin" />
+</FrameLayout>

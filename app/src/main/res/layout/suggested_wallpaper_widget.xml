@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryDarkColor"
+    android:padding="@dimen/appwidget_margin">
+
+    <ImageView
+        android:id="@+id/iv_wallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/appwidget_wallpaper_content_desc"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tv_wallpaper_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/appwidget_wallpaper_title_background"
+        android:gravity="center"
+        android:padding="@dimen/appwidget_wallpaper_title_padding"
+        android:textAppearance="@style/PrimaryText"
+        android:textColor="@color/primaryTextColor"
+        tools:text="Wallpaper Title Here" />
+
+</FrameLayout>

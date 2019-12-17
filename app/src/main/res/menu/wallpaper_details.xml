@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_set_wallpaper"
+        android:orderInCategory="1"
+        android:title="@string/action_set_wallpaper"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_download_wallpaper"
+        android:orderInCategory="2"
+        android:title="@string/action_download_wallpaper"
+        app:showAsAction="never" />
+</menu>

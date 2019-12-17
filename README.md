@@ -1,2 +1,2 @@
 # Star Wars Wallpaper
-Star Wars Wallpaper Android mobile client.
+A wallpapers app for Star Wars fans!

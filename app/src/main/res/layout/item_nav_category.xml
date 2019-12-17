@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_item_height"
+    android:background="@drawable/selector_nav_category">
+
+    <TextView
+        android:id="@+id/tv_category_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/nav_item_vertical_margin"
+        android:layout_marginEnd="@dimen/nav_item_horizontal_margin"
+        android:layout_marginLeft="@dimen/nav_item_horizontal_margin"
+        android:layout_marginRight="@dimen/nav_item_horizontal_margin"
+        android:layout_marginStart="@dimen/nav_item_horizontal_margin"
+        android:layout_marginTop="@dimen/nav_item_vertical_margin"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="This is a very very very very very very very very long category name" />
+</android.support.constraint.ConstraintLayout>

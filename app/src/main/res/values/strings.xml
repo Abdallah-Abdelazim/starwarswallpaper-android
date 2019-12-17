@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Star Wars Wallpapers</string>
+    <string name="launcher_app_name">SW Wallpapers</string>
+    <string name="title_activity_wallpaper_details">Wallpaper Details</string>
+
+    <!-- Content Descriptions -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="wallpaper_photo_view_desc">Zoomable Wallpaper</string>
+    <string name="appwidget_wallpaper_content_desc">Suggested Wallpaper</string>
+    <!---->
+
+    <!-- Menu Actions -->
+    <string name="action_set_wallpaper">Set wallpaper</string>
+    <string name="action_download_wallpaper">Download</string>
+    <!---->
+
+    <!-- Views' Text -->
+    <string name="author_label">Author: </string>
+    <string name="setting_wallpaper_label">Setting wallpaper...</string>
+    <string name="wallpaper_download_notification_title">Downloading Wallpaper \'%s\'</string>
+    <string name="wallpaper_download_notification_description">Star Wars Wallpapers - Downloading \'%s\'</string>
+    <!---->
+
+    <!-- Msg -->
+    <string name="general_error">An error occurred!</string>
+    <string name="error_loading_categories">Error loading categories!</string>
+    <string name="error_loading_category_wallpapers">Error loading the category wallpapers!</string>
+    <string name="error_loading_author">Error loading the wallpaper author data!</string>
+    <string name="error_download_wallpaper">Error occurred while trying to download the wallpaper!</string>
+    <string name="error_download_wallpaper_permission_missing">Couldn\'t download the wallpaper!</string>
+    <string name="error_loading_appwidget">An error occurred while trying to load the app widget!</string>
+    <string name="explain_write_external_storage_permission">The storage permission is needed for the app to be able to store the wallpaper images on your device local storage.</string>
+    <string name="suggested_wallpaper_appwidget_greeter">This app widget will display a suggested wallpaper from our collection of best Star Wars wallpapers.</string>
+    <!---->
+
+    <!-- Constants -->
+    <string name="all_wallpapers_category_key" translatable="false">all</string>
+    <string name="wallpaper_downloaded_file_name" translatable="false">%1$s by %2$s.png</string>
+    <string name="wallpaper_downloaded_file_path" translatable="false">/Star Wars Wallpapers/%s</string>
+    <!---->
+
+    <!-- Misc. -->
+    <string name="all_wallpapers_category_name">All</string>
+    <string name="all_wallpapers_category_description">All wallpapers.</string>
+    <!---->
+</resources>
