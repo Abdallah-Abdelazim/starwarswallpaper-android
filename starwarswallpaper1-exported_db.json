@@ -1,0 +1,85 @@
+{
+  "authors": {
+    "battlefrontcaptures": {
+      "name": "Battlefront Captures",
+      "referenceUrl": "https://www.flickr.com/battlefrontcaptures"
+    },
+    "squirtdude": {
+      "name": "Squirtdude",
+      "referenceUrl": "https://imgur.com/user/Squirtdude"
+    }
+  },
+  "categories": {
+    "jedi": {
+      "description": "Jedi wallpapers.",
+      "name": "Jedi"
+    },
+    "maul": {
+      "description": "Darth Maul wallpapers.",
+      "name": "Darth Maul"
+    },
+    "minimalist": {
+      "description": "Minimalist wallpapers.",
+      "name": "Minimalist"
+    },
+    "sith": {
+      "description": "Sith wallpapers.",
+      "name": "Sith"
+    },
+    "vader": {
+      "description": "Darth Vader wallpapers.",
+      "name": "Darth Vader"
+    }
+  },
+  "categoryWallpapers": {
+    "maul": {
+      "maul125": true
+    },
+    "minimalist": {
+      "finn124": true,
+      "kylo124": true,
+      "reybb8": true,
+      "shocktrooper124": true
+    }
+  },
+  "suggestedWallpaper": {
+    "finn124": true
+  },
+  "wallpapers": {
+    "finn124": {
+      "authorKey": "squirtdude",
+      "description": "Finn Star Wars minimalist mobile wallpaper.",
+      "thumbnailPath": "/wallpapers/finn124_medium.jpg",
+      "title": "Finn",
+      "wallpaperPath": "/wallpapers/finn124_original.jpg"
+    },
+    "kylo124": {
+      "authorKey": "squirtdude",
+      "description": "Kylo Ren Star Wars minimalist mobile wallpaper.",
+      "thumbnailPath": "/wallpapers/kylo124_medium.jpg",
+      "title": "Kylo Ren",
+      "wallpaperPath": "/wallpapers/kylo124_original.jpg"
+    },
+    "maul125": {
+      "authorKey": "battlefrontcaptures",
+      "description": "Darth Maul, EA Star Wars Battlefront 2.",
+      "thumbnailPath": "/wallpapers/maul125_medium.jpg",
+      "title": "Darth Maul",
+      "wallpaperPath": "/wallpapers/maul125_original.png"
+    },
+    "reybb8": {
+      "authorKey": "squirtdude",
+      "description": "Rey & BB-8 Star Wars minimalist mobile wallpaper.",
+      "thumbnailPath": "/wallpapers/reybb8_medium.jpg",
+      "title": "Rey & BB-8",
+      "wallpaperPath": "/wallpapers/reybb8_original.jpg"
+    },
+    "shocktrooper124": {
+      "authorKey": "squirtdude",
+      "description": "Shock Trooper Star Wars minimalist mobile wallpaper.",
+      "thumbnailPath": "/wallpapers/shocktrooper124_medium.jpg",
+      "title": "Shock Trooper",
+      "wallpaperPath": "/wallpapers/shocktrooper124_original.png"
+    }
+  }
+}
